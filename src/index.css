@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Tailwind Styles */
+
+
+.head_text {
+  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black ;
+}
+
+.orange_gradient {
+  @apply bg-gradient-to-b from-amber-600 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+}
+
+
+
+
+
